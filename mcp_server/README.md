@@ -68,7 +68,7 @@ Create or update the `.vscode/mcp.json` file in your workspace root:
             "command": "cmd",
             "args": [
                 "/c",
-                ".\\.venv\\Scripts\\activate.bat && uv run mcp run mcp_server.py"
+                ".\\.venv\\Scripts\\activate.bat && uv run mcp run mcp_server\\mcp_server.py"
             ]
         }
     }

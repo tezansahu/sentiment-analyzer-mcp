@@ -1,6 +1,6 @@
 # Sentiment Analyzer with MCP Integration
 
-A complete sentiment analysis solution featuring a deep learning model served via FastAPI and integrated with VS Code through a Model Context Protocol (MCP) server.
+A complete sentiment analysis solution featuring a deep learning model (finetuned DistilBERT model) served via FastAPI and integrated with VS Code through a Model Context Protocol (MCP) server.
 
 ## Components
 
@@ -28,7 +28,7 @@ A complete sentiment analysis solution featuring a deep learning model served vi
        "servers": {
            "sentiment-analyzer": {
                "command": "cmd",
-               "args": ["/c", ".\\.venv\\Scripts\\activate.bat && uv run mcp run mcp_server.py"]
+               "args": ["/c", ".\\.venv\\Scripts\\activate.bat && uv run mcp run mcp_server\\mcp_server.py"]
            }
        }
    }

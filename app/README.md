@@ -1,6 +1,6 @@
 # Sentiment Analyzer FastAPI Server
 
-This project provides a FastAPI server for sentiment analysis using a small, pretrained deep learning model. The server classifies input text as either positive or negative sentiment.
+This project provides a FastAPI server for sentiment analysis using a small, pretrained deep learning model (finetuned DistilBERT). The server classifies input text as either positive or negative sentiment.
 
 ## Features
 - `/predict` endpoint for sentiment classification

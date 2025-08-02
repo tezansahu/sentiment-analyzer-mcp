@@ -5,7 +5,7 @@ import torch
 import os
 
 MODEL_NAME = "distilbert-base-uncased-finetuned-sst-2-english"
-MODEL_PATH = "app/model"
+MODEL_PATH = "model"
 
 # Download and save model if not already present
 def download_model():
